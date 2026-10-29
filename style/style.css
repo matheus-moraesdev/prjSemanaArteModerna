@@ -92,3 +92,30 @@ body{
 .as-mulatas{
     margin-left: 300px;
 }
+
+.rodape{
+     margin-top: 40px;
+    padding: 25px;
+    background-color: #000;
+    color: greenyellow;
+    text-shadow: 0 5px 15px greenyellow;
+
+    text-align: center;
+}
+
+.rodape address{
+    font-style: italic;
+}
+
+.link{
+     padding: 8px 12px;
+    background-color: #d8e8e8;
+    color: #123a63;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: greenyellow;
+}
