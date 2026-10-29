@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Hidayatullah';
+    src: url(../fontes/hidayatullah\ DEMO.ttf);
+
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.titulo{
+    font-family: "Hidayatullah";
+}
+
+body{
+   background-image: url(../img/artista.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    margin: 80px 80px 80px 80px;
+    
+    background-color: #d3d3d3;
+    color: #123a63;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cabecalho{
+    background-color: black;
+    color: greenyellow;
+    border: 5px solid greenyellow;
+    
+    margin: 70px 70px 70px 70px;
+}
+
+.artista{
+    width: 25%;
+}
+
+.menu-principal{
+    margin: 20px 0;
+    padding: 0;
+
+    list-style: none;
+    margin-right: 40px;
+}
+
+.menu-link{
+    background-color: beige;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #123a63;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.menu-principal li{
+    display: inline-block;
+    font-size: 15px;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link:hover{
+    color: greenyellow;
+}
+
