@@ -75,3 +75,16 @@ body{
     color: greenyellow;
 }
 
+.grade-cards{
+    display: grid;
+}
+
+.card{
+    margin-top: 20px;
+    padding: 24px;
+    background-color: #000;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px greenyellow;
+    color: #d8e8e8;
+}
